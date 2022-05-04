@@ -143,80 +143,6 @@ meter{
 
 */
 
-/* Resume Section */
-#resume{
-    display: flex;
-    gap: 30px;
-    margin: 20px;
-    box-shadow: 3px 3px 3px rgba(0, green, blue, 0.3);
-    padding: 20px;
-    background: brown;
-    flex-direction: column;
-}
-
-#info{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.headingsh2{
-    display: flex;
-    
-}
-
-
-
-
-
-/*
-#pic{
-    display: flex;
-   flex-wrap: wrap;
-
-}
-
-#pic img{
-    height: 550px;
-    width: 430px;
-}
-
-#intro{
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    padding: 10px;
-
-}
-
-#intro h2{
-    font-size: larger;
-    margin-bottom: 20px;
-
-} */
-
-/* Services Section */
-
-#services{
-  
-    display: flex;
-    gap: 30px;
-    margin: 20px;
-    box-shadow: 3px 3px 3px rgba(0, green, blue, 0.3);
-    padding: 20px;
-    background: brown;
-    justify-content: center;
-}
-
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    box-sizing: border-box;
-    padding: 20px;
-
-   
-}
 
 
 
@@ -226,87 +152,6 @@ meter{
 
 
 
-/* Contacts */
-
-#contact{
-    display: flex;
-    gap: 30px;
-    margin: 20px;
-    box-shadow: 3px 3px 3px rgba(0, green, blue, 0.3);
-    padding: 20px;
-    background: brown;
-}
-
-#contact > div{
-     display: flex; 
-   
-      width: 100%;
-      margin-right: 50px;
-      flex-wrap: wrap;
-     
-   
-  }
-
-  .contact-me{
-    display: flex;
-    margin-right: 150px;
-    margin-bottom: 10px;
-    gap: 15px;
-    border: 5px solid white;
-    color: white;
-  }
-
-
-  .form{
-   
-    margin-top: top 150px;
-    padding: 20px;
-  }
-
-  .btn2{
-   margin-left: 60px;
-   margin-top: 20px;
-   padding: 12px 35px;
-   background-color: transparent;
-   border: 3px solid white;
-   color: white;
-   transition: .6s ease;
-  }
-
-  .btn2:hover{
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    box-shadow: 0 0 5px white, 0 0 10px white 0 0 15px white;
-
-  }
-
-  .in-touch{
-      padding: 20px;
-
-    border: 5px solid white;
-    color: white;
-      
-  }
-
-
-
-
-/* Project Styles */
-
-.project-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: space-between;
-  }
-  
-  .project-container img {
-    min-width: 200px;
-    flex-grow: 1;
-    object-fit: cover;
-    max-height: 400px;
-  }
 
 
 
@@ -315,23 +160,16 @@ meter{
 
 
 
-*/
-#testimonials{
-    background:
-     /* top, transparent red, faked with gradient */  linear-gradient(
-         rgba(13, 110, 253, 0.7),
-         rgba(13, 110, 253, 0.7)
-     ),
-     /* bottom, image */ url;
-     background-size: cover;
-     background-attachment: fixed;
-     background-position: center;
-}
+
+
+
+
+
 
 /*Landing Styles*/
 section{
     min-height: 100vh;
-    background-color: cornflowerblue;
+    background-color: rgb(207, 205, 205);
 }
 section:nth-of-type(even){
     background-color: rgb(242, 12, 12);
