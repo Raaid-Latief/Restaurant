@@ -20,7 +20,7 @@
 
 
     <!-- navbar -->
-  <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light pt-5 pb-4">
+  <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark pt-5 pb-4">
     <div class="container-md">
       <!-- navbar brand / title -->
       <a class="navbar-brand" href="#intro">
@@ -62,7 +62,7 @@
             <a class="nav-link" href="#contact">Contact</a>
           </li>
           <li class="nav-item ms-2 d-none d-md-inline">
-            <a class="btn btn-secondary text-warning" href="#contact">Book a Table</a>
+            <a class="btn btn-secondary text-warning nav-link bg-body rounded btn-outline-warning" href="#booking">Book a Table</a>
           </li>
           
         </ul>
@@ -77,18 +77,18 @@
 
 
    
-    <!-- End of Navbar-->
+    <!-- End of Navbar--> 
     <!--Beginning of Landing-->
 
 <section id="home">
    <div class="main">
-       <h1 class="display-2">Protein Parlour</h1>
-       <p1 class="lead my-4 text-muted">Lorem ipsum dolor sit amet.</p1>
+       <h1 class="display-2 text-warning">Protein <span>Parlour</span></h1>
+       <p1 class="lead my-4 ">Lorem ipsum dolor sit amet.</p1>
        <div class="">
-       <a href="buttons"><button class="btn nav-item ms-2 d-none d-md-inline">Our Menu</button></a>
+       <a href="btn"><button class="btn nav-item ms-2 d-none d-md-inline">Our Menu</button></a>
     
     
-        <a href=""><button class="btn nav-item ms-2 d-none d-md-inline">Book a Table</button></a>
+        <a href="btn"><button class="btn nav-item ms-2 d-none d-md-inline">Book a Table</button></a>
     </div>
     </div>
    </section>
@@ -98,55 +98,31 @@
 
 
    <!-- ======= About Section ======= -->
-   <section id="about" class="about-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="row">
-                  <div class="col-sm-6 col-md-5">
-                    <div class="">
-                      <img src="./tiramisu-7030032_1920.jpg" class="img-fluid" alt="Tiramisu">
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-7 h-100">
-                   
-              <div class="col-md-6">
-                <div class="about-me pt-4 pt-md-0">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Lorem, ipsum dolor.
-                    </h5>
-                  </div>
-                  <p class="lead">
-                    Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                    imperdiet et, porttit
-                  </p>
-                  </div>
-               
-                      
-                  </div>
-                  
-                </div>
-              </div>
-            </div>
-          </d iv>
+   <section  id="about" class="about">
+   <div class="container">
+    <h1 class="text-center my-4 mx-5 p-5">About our Restaurant</h1>
+    <div class="row text-center">
+        <div class="col-md-6">
+            <img class="" src="./tiramisu-7030032_1920.jpg" width="500px">
+           
         </div>
-      </div>
+        <div class="col-md-6">
+          <h3 class="text-muted">Lorem ipsum dolor sit amet.</h3>
+            <p><strong>Maja Miletich </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ipsam quas vel. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
     </div>
+  </div>
   </section>
 
 
   <section id="why-us" class="why-us">
       <div class="container">
           <div class="section-title">
-              <h2>
+              <h2 class="mt-5 text-center mb-3">
                   Why choose
                   <span>Our Restaurant</span>
               </h2>
-              <p>Lorem, ipsum dolor.
+              <p class="mb-4 text-center">Lorem, ipsum dolor.
 
               </p>
           </div>
@@ -186,6 +162,7 @@
 
 <section id="menu" class="menu">
     <div class="container" data-aos="fade-up">
+      </section>
 
      
 
@@ -197,40 +174,192 @@
 
 
 
-<section id="specials" class="specials">
+<section id="specials" class="p-5">
+  <div class="container">
+    <h1 class="mb-3 text-center">Check our Specials</h1>
+    <p class="mt-2 mb-5 text-center text-muted">Lorem ipsum dolor sit amet.</p>
     
-    <h1 class="section-title">Specials</h1>
-    <div class="row"></div>
+
+    <div class="d-flex align-items-start">
+      <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+        <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+      </div>
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+          <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, enim?</P>
+        </div>
+        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, incidunt.</p>
+        </div>
+        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, quam.</p>
+        </div>
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, aspernatur!</p>
+        </div>
+      </div>
+    </div>
+    </div>
   
 </section>
 
+<!--End of Specials-->
+
+<!--Events-->
+
+
+<section id="events" class="p-5">
+
+  <div class="container">
+  <h1 class="mb-3 text-center bg-warning">Organise your Events in our Restaurant</h1>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./brick-wall-1834784_1920.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>We had such a great time in LA!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./restaurant-449952_1920.jpg" alt="Chicago" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="./tiramisu-7030032_1920.jpg" alt="New York" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>  
+    </div>
+  </div>
+</div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+
+</section>
+
+<!--End of Events-->
+<section id="booking" class="p-5">
+  <div class="container">
+    <div class="section-title"><h2 class="text-center p-2">Book a <span>Table</span></h2>
+      <p class="text-center mb-4">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+    </div>
+    <div class="container bg-body rounded shadow p-3">
+      <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 form-group"> 
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate">
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0"> 
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+            <div class="validate">
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0"> 
+            <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate">
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3"> 
+            <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate">
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3"> 
+            <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate">
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3"> 
+            <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+            <div class="validate">
+
+            </div>
+          </div>
+        </div>
+        <div class="form-group mt-3">
+          <textarea class="form-control" name="message" rows="5" placeholder="Message">
+
+          </textarea>
+          <div class="validate">
+
+          </div>
+        </div>
+        <div class="mb-3">
+        
+          <div class="error-message"></div>
+         
+        </div>
+        <div class="text-center">
+          <button type="submit" class="bg-body rounded btn-outline-warning">Send Message</button>
+        </div>
+      </form>
+    </div>
+    </div>
+  </section>
 
 
 
 
 
 <!--Gallery-->
-<section id="gallery" class="gallery">
+<section id="gallery" class="p-5">
     <div class="container-fluid">
-        <div class="section-title">
+        <div class="text-center">
             <h2>Pictures from
-                <span>Our Restaraunt</span>
+                <span>Our Restaurant</span>
             </h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicin
             </p>
         </div>
-        <div class="row g-0">
+        <div class="row g-1">
         <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
                 <a href="./barista-5055060_1920.jpg" class="gaellery-lightbox">
-                    <img src="./barista-5055060_1920.jpg" alt class="img-fluid" width="90%" height="90%">
+                    <img src="./barista-5055060_1920.jpg" alt class="img-fluid" width="100%" height="100%">
                 </a>
             </div>
             </div>
             <div class="col-lg-3 col-md-4">
                 <div class="gallery-item">
                     <a href="./beans-1834984_1920.jpg" class="lightbox">
-                        <img src="./beans-1834984_1920.jpg" alt class="img-fluid" width="90%" height="90%">
+                        <img src="./beans-1834984_1920.jpg" alt class="img-fluid" width="100%" height="100%">
                     </a>
            </div>
            </div>
@@ -238,7 +367,7 @@
         <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
                 <a href="./brick-wall-1834784_1920.jpg" class="lightbox">
-                    <img src="./brick-wall-1834784_1920.jpg" alt class="img-fluid" width="90%" height="90%">
+                    <img src="./brick-wall-1834784_1920.jpg" alt class="img-fluid" width="100%" height="100%">
                 </a>
         </div>
         </div>
@@ -246,7 +375,7 @@
     <div class="col-lg-3 col-md-4">
         <div class="gallery-item">
             <a href="./restaurant-449952_1920.jpg" class="lightbox">
-                <img src="./restaurant-449952_1920.jpg" alt class="img-fluid" width="90%" height="90%">
+                <img src="./restaurant-449952_1920.jpg" alt class="img-fluid" width="100%" height="100%">
             </a>
          </div>
          </div>
@@ -286,9 +415,67 @@
 
             </div>
         </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="member">
+              <div class="pic">
+                  <img src="./chef-4807317_1920.jpg" alt="img-fluid" width="90%" height="90%">
+              </div>
+              <div class="member-info">
+                  <h4>
+                      Chef Ramsey
+                  </h4>
+                  <span>Head Chef</span>
+                  <div class="socials">
+                      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="member">
+            <div class="pic">
+                <img src="./man-890880_1920.jpg" alt="img-fluid" width="90%" height="90%">
+            </div>
+            <div class="member-info">
+                <h4>
+                    Chef Waleed White
+                </h4>
+                <span>Organ Chef</span>
+                <div class="socials">
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </div>
+            </div>
+
+        </div>
+    </div>
     </div>
     </div>
     
+</section>
+
+<!--End of Chefs-->
+
+<!--Contact-->
+
+<section id="contact" class="p-5">
+  <div class="container">
+    <h1 class="text-center">Contact Us</h1>
+    <p class="text-center">Lorem ipsum dolor sit amet consectetur.</p>
+
+    <!--Google map-->
+<div id="map-container-google-1" class="text-center">
+  <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+    style="border:0" allowfullscreen></iframe>
+</div>
+
+<!--Google Maps-->
+
+
+  </div>
 </section>
 
 
@@ -312,7 +499,7 @@
         </ul>
     </div>
     <div class="footer-bottom">
-        <p>copyright &copy; 2020 Raaid Abdullatief. designed by <span>html</span></p>
+        <p>copyright &copy; 2020 Raaid Abdullatief. designed by <span>Bootstrap</span></p>
     </div>
 </footer>
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center active"><i class="bi bi-arrow-up-short">
